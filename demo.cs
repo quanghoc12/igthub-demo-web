@@ -7,4 +7,6 @@ var app = builder.Build();
 app.MapGet("/", () => "Hello, World!");
 app.MapGet("/api/greeting/{name}", (string name) => $"Hello, {name}!");
 
+
 app.Run();
+thanhphan;
